@@ -1,0 +1,1 @@
+{"buildTargets":["PHONEY","build","clean","deploy","destroy","help","init","make","test","validate"],"launchTargets":[],"customConfigurationProvider":{"workspaceBrowse":{"browsePath":[],"compilerArgs":[]},"fileIndex":[]}}

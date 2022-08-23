@@ -1,0 +1,316 @@
+make all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 3.81
+# Copyright (C) 2006  Free Software Foundation, Inc.
+# This is free software; see the source for copying conditions.
+# There is NO warranty; not even for MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE.
+
+# This program built for i386-apple-darwin11.3.0
+ 
+
+# Make data base, printed on Tue Aug 23 13:14:37 2022
+
+# Variables
+
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# automatic
+?F = $(notdir $?)
+# environment
+NVM_INC = /Users/leeclark/.nvm/versions/node/v14.20.0/include/node
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# automatic
+@F = $(notdir $@)
+# makefile
+CURDIR := /Users/leeclark/Documents/Github/tablero
+# makefile
+SHELL = /bin/sh
+# environment
+VSCODE_NLS_CONFIG = {"locale":"en-gb","availableLanguages":{},"_languagePackSupport":true}
+# environment
+_ = /usr/bin/make
+# makefile (from `Makefile', line 1)
+MAKEFILE_LIST :=  Makefile
+# environment
+__CFBundleIdentifier = com.microsoft.VSCode
+# environment
+INFOPATH = /opt/homebrew/share/info:
+# environment
+VSCODE_CWD = /
+# environment
+PATH = /Users/leeclark/.nvm/versions/node/v14.20.0/bin:/Users/leeclark/.amplify/bin:/opt/homebrew/opt/node@14/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/go/bin:/Library/Apple/usr/bin
+# makefile (from `Makefile', line 1)
+MY_PUBLIC_IP = $(shell curl -s https://api.ipify.org)
+# environment
+NVM_BIN = /Users/leeclark/.nvm/versions/node/v14.20.0/bin
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# default
+.FEATURES := target-specific order-only second-expansion else-if archives jobserver check-symlink
+# environment
+SSH_AUTH_SOCK = /private/tmp/com.apple.launchd.R4WFadks7B/Listeners
+# automatic
+%F = $(notdir $%)
+# environment
+PWD = /Users/leeclark/Documents/Github/tablero
+# environment
+HOMEBREW_CELLAR = /opt/homebrew/Cellar
+# makefile (from `Makefile', line 3)
+KIBANA_URL = https://search-manitest6-u6ggfrtq7y7aykurrb2hcdpwou.eu-west-2.es.amazonaws.com/_plugin/kibana/
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = undefined
+# environment
+MANPATH = /Users/leeclark/.nvm/versions/node/v14.20.0/share/man:/opt/homebrew/share/man::
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+HOME = /Users/leeclark
+# default
+MAKEFILEPATH := /Applications/Xcode.app/Contents/Developer/Makefiles
+# environment
+VSCODE_CODE_CACHE_PATH = /Users/leeclark/Library/Application Support/Code/CachedData/e4503b30fc78200f846c62cf8091b76ff5547662
+# environment
+LOGNAME = leeclark
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
+# environment
+NVM_CD_FLAGS = -q
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# environment
+XPC_FLAGS = 0x0
+# default
+MAKE = $(MAKE_COMMAND)
+# default
+MAKECMDGOALS := all
+# environment
+SHLVL = 1
+# default
+MAKE_VERSION := 3.81
+# environment
+USER = leeclark
+# makefile (from `Makefile', line 63)
+.DEFAULT_GOAL := help
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# default
+MAKE_COMMAND := /Applications/Xcode.app/Contents/Developer/usr/bin/make
+# default
+.VARIABLES := 
+# environment
+TMPDIR = /var/folders/77/v65l3nb95874c3xl53mcw15m0000gp/T/
+# automatic
+*F = $(notdir $*)
+# environment
+VSCODE_IPC_HOOK = /Users/leeclark/Library/Application Support/Code/1.70.2-main.sock
+# environment
+MallocNanoZone = 0
+# makefile
+MAKEFLAGS = Rrqp
+# environment
+MFLAGS = -Rrqp
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# environment
+NVM_DIR = /Users/leeclark/.nvm
+# environment
+XPC_SERVICE_NAME = application.com.microsoft.VSCode.20445130.20445136
+# environment
+HOMEBREW_PREFIX = /opt/homebrew
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# makefile (from `Makefile', line 2)
+DASHBOARD_FILE = kibana_dashboard_export.ndjson
+# automatic
++F = $(notdir $+)
+# environment
+HOMEBREW_REPOSITORY = /opt/homebrew
+# environment
+__CF_USER_TEXT_ENCODING = 0x1F6:0:2
+# environment
+COMMAND_MODE = unix2003
+# default
+MAKEFILES := 
+# automatic
+<F = $(notdir $<)
+# environment
+LC_ALL = C
+# automatic
+^F = $(notdir $^)
+# default
+SUFFIXES := 
+# environment
+MAKELEVEL := 0
+# environment
+LANG = C
+# environment
+VSCODE_PID = 1054
+# variable set hash-table stats:
+# Load=69/1024=7%, Rehash=0, Collisions=2/94=2%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# . (device 16777233, inode 21864413): 11 files, no impossibilities.
+
+# 11 files, no impossibilities in 1 directories.
+
+# Implicit Rules
+
+# No implicit rules.
+
+# Files
+
+PHONEY: init test clean build deploy destroy help validate
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+all:
+#  Command-line target.
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has not been updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+.SUFFIXES:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  Last modified 2022-08-23 13:13:56
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+validate:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 55):
+	$(error make variable PROJECT_NAME is undefined)
+	
+
+test:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 13):
+	pipenv run python -m pytest
+	
+
+build:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 27):
+	@echo "[make build] Installing dependencies to a dedicated directory" && \
+	pipenv lock -r > .requirements.txt && \
+	pipenv run pip install -r .requirements.txt --target _build/  && \
+	echo "[make build] Copying project's source code to _build folder"  && \
+	rsync -rv --exclude=tests src/* _build && \
+	echo "[make build] Creating zip file for lambda"  && \
+	cd _build && zip -r ../lambda.zip *
+	
+
+help:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 61):
+	@grep -E '^[a-zA-Z_-]+:.*?## .*$$' $(MAKEFILE_LIST) | sort | awk 'BEGIN {FS = ":.*?## "}; {printf "\033[36m%-30s\033[0m %s\n", $$1, $$2}'
+	
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+clean:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 16):
+	@echo "[make clean] Cleaning up.." && \
+	rm -rf _build && rm -f lambda.zip && \
+	rm -rf .pytest_cache/ && \
+	rm -rf .requirements.txt && \
+	rm -rf terraform/.terraform* && \
+	rm -f terraform/terraform.tfstate* && \
+	rm -f terraform/.terraform.lock.hcl && \
+	echo "[make clean] Successfully cleaned up build env.."
+	
+
+init:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 8):
+	pipenv --python 3.8 && \
+	pipenv install --ignore-pipfile -d  && \
+	pipenv shell
+	
+
+destroy: validate
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 49):
+	cd terraform  && \
+	terraform init  && \
+	terraform destroy  -var="allowed_ip=$(MY_PUBLIC_IP)" -var="project_name=$(PROJECT_NAME)" --auto-approve
+	
+
+deploy: validate
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 36):
+	cd terraform  && \
+	terraform init  && \
+	terraform apply \
+	-var="allowed_ip=$(MY_PUBLIC_IP)"  \
+	-var="project_name=$(PROJECT_NAME)" \
+	-auto-approve
+	@echo "Importing $(DASHBOARD_FILE) to kibana endpoint: `cd terraform && terraform output -raw kibana_endpoint`"
+	@curl -X POST `cd terraform && terraform output -raw kibana_endpoint`/api/saved_objects/_import -H "kbn-xsrf: true" --form file=@$(DASHBOARD_FILE) -H 'kbn-xsrf: true'
+	@echo "\n\nKibana Dashboard: `cd terraform && terraform output -raw kibana_endpoint`app/dashboards"
+ 
+make: *** No rule to make target `all'.  Stop.
+
+	@echo "\n\nTo test: Upload a sample log file by using the following command:"
+	@echo "aws s3 cp ./sample_data/2021-12.log  s3://`cd terraform && terraform output -raw s3_bucket_name`/\n"
+	
+
+# files hash-table stats:
+# Load=13/1024=1%, Rehash=0, Collisions=0/35=0%
+# VPATH Search Paths
+
+# No `vpath' search paths.
+
+# No general (`VPATH' variable) search path.
+
+# # of strings in strcache: 1
+# # of strcache buffers: 1
+# strcache size: total = 4096 / max = 4096 / min = 4096 / avg = 4096
+# strcache free: total = 4087 / max = 4087 / min = 4087 / avg = 4087
+
+# Finished Make data base on Tue Aug 23 13:14:37 2022
+
+ 
